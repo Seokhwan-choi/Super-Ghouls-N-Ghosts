@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameFramework">
+      <UniqueIdentifier>{5c1c8e69-725f-4625-846a-35e59cc197fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\매니져">
+      <UniqueIdentifier>{697a5ffe-2180-4241-ad13-f1e68849dc52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\유틸">
+      <UniqueIdentifier>{980b30b8-7023-45b3-be96-32d73995b0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{5d4d24da-8f9a-4aa3-80ec-bacf421b7449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\WinMain">
+      <UniqueIdentifier>{d5dd4a43-d651-4b43-9a12-e303047044bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\이미지">
+      <UniqueIdentifier>{40b3f173-5021-4f56-a654-e70378e74183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="몬스터">
+      <UniqueIdentifier>{406515b2-4d19-4834-a255-57b0766ccef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="씬">
+      <UniqueIdentifier>{ed210215-9128-4c5f-bc19-74dcb5596710}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>MainGame\WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="Birdfeather.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowerBullet.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="uiManager.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <Filter>씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Playgame.h">
+      <Filter>씬</Filter>
+    </ClInclude>
+    <ClInclude Include="TItle.h">
+      <Filter>씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MainGame\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>MainGame\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>MainGame\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>GameFramework\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="randomFunction.cpp">
+      <Filter>GameFramework\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="Flower.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowerBullet.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="Birdfeather.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameFramework\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="uiManager.cpp">
+      <Filter>GameFramework\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <Filter>씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Playgame.cpp">
+      <Filter>씬</Filter>
+    </ClCompile>
+    <ClCompile Include="TItle.cpp">
+      <Filter>씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
